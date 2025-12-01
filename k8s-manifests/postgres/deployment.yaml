@@ -25,12 +25,12 @@ spec:
           valueFrom:
             secretKeyRef:
               name: django-secrets
-              key: db_user
+              key: DB_USER
         - name: POSTGRES_PASSWORD
           valueFrom:
             secretKeyRef:
               name: django-secrets
-              key: db_password
+              key: DB_PASSWORD
         volumeMounts:
         - name: postgres-storage
           mountPath: /var/lib/postgresql/data

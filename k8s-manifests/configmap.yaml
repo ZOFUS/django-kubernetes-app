@@ -8,3 +8,4 @@ data:
   ALLOWED_HOSTS: "*"
   DB_HOST: "postgres-service"
   DB_PORT: "5432"
+  DB_NAME: "django_prod"
