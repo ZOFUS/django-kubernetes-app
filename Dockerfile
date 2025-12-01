@@ -15,6 +15,7 @@ ENV DB_NAME=dummy
 ENV DB_USER=dummy
 ENV DB_PASSWORD=dummy
 ENV DB_HOST=dummy
+ENV SECRET_KEY=django-insecure-build-key-123
 
 # Сбор статики
 RUN python manage.py collectstatic --noinput
